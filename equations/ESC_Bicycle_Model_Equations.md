@@ -62,7 +62,7 @@ When ESC yaw moment is applied:
 CG lateral acceleration:
 - a_y = Ux (β̇ + r)
 
-In many blocks you also use a filtered acceleration:
+I also used a filtered acceleration:
 - a_y,f(s) = (1 / (τ_ay s + 1)) · a_y(s)
 
 **Use:** Required for the sideslip observer (β̂).
